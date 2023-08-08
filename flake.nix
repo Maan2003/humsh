@@ -14,7 +14,7 @@
       };
     };
     devShells.${system}.default = pkgs.mkShell {
-      nativeBuildInputs = with pkgs; [ cargo rustc clippy rustfmt rust-analyzer zoxide fzf fd ];
+      nativeBuildInputs = with pkgs; [ go gopls zoxide fzf fd ];
     };
   };
 }
